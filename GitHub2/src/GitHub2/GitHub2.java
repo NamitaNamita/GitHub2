@@ -21,6 +21,8 @@ public class GitHubClass {
 		@BeforeTest
 		public void beforeTest() {	
 		    driver = new FirefoxDriver();  
+		    System.out.println("Hello world");
+		    
 		}		
 		@AfterTest
 		public void afterTest() {
